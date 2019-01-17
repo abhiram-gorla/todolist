@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <script type="text/javascript" src="script1.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script type="text/javascript">
+      function clear(){
+        document.getElementByid("todolist").value=""
+
+      }
+
+    </script>
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <style media="screen">
+      body {
+        background-color:lightblue;
+      }
+      h1 {
+        color:white;
+        text-align:center
+      }
+      p{
+        font-family:verdana;
+        fond-size:20px;
+      }
+      .input1 {
+
+        height:50px;
+        width:50%;
+        position:relative;
+        left:25%;
+        border:3px solid grey;
+        border-top-left-radius:18px;
+        border-bottom-left-radius:18px;
+        border-top-right-radius:25px;
+        border-bottom-right-radius:25px;
+        font-size:30px;
+        color:grey;
+      }
+      .button1{
+
+        color:grey;
+        position:relative;
+        left:270px;
+        top:-8px;
+      }
+      .button2{
+
+        color:grey;
+        position:relative;
+        left:1000px;
+        top:-50px;
+      }
+    </style>
+    <meta charset="utf-8">
+    <title>todo list taskforce task-1</title>
+  </head>
+  <body>
+    <h1>to do list</h1>
+    <div class="row">
+      <form id="form" class="col-lg-6 col-8 mx-auto" action="index.html" method="post">
+
+        <input class="input1" type="text" id="input" placeholder="enter event" name="todolist" >
+        <span><button class="w3-blue w3-border w3-button w3-circle w3-large button1" type="button" id="btn">+</button></span>
+      </form>
+
+    </div>
+    <div class="row">
+        <ul id="list" class= list col-8 col-lg-6 mx-auto>
+          </ul>
+    </div>
+    <div class="row">
+				<button id="btnClr" type="button" class="btn btn-primary mx-auto btnHide">Clear</button>
+			</div>
+  </body>
+</html>
